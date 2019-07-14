@@ -66,7 +66,8 @@ class GameBoard(tk.Tk):
             self.mode_btn1["fg"] = self.pColor[self.turn]
             self.mode_btn1["text"] = self.player[self.turn]
             self.update_elements()
-
+    
+    # coming soon...
     def btn_mode2(self):
         if len(self.get_open_spots()) == 9:
             pass
